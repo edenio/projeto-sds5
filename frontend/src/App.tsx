@@ -15,11 +15,13 @@ function App() {
             <BarChart />
           </div>
         </div>
+        <div className="container">
         <div className="row px-3">
           <div className="col-sm-6">
             <h5 className="text-center text-secondary">Grafico de Vendas</h5>
             <DonutChart />
           </div>
+        </div>
         </div>
         <DataTable />
       </div>
