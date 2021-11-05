@@ -7,15 +7,10 @@ const Routes = () => {
         <BrowserRouter>
            <Switch>
                <Route path="/" exact>
-
-                   <Home/>
-                                   
+                <Home/>
                </Route>
-
-               <Route path="/" exact>
-
-                   <Dashboard/>
-                                   
+               <Route path="/Dashboard">
+                <Dashboard/>
                </Route>
            </Switch>
         </BrowserRouter>
